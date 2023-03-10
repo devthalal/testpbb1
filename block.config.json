@@ -1,0 +1,17 @@
+{
+  "name": "testpbb1",
+  "blockId": "fzNak3gw65adj7BVBldVx",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/devthalal/testpbb1",
+    "ssh": "git@github.com:devthalal/testpbb1.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false,
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ]
+}
